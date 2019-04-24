@@ -1,0 +1,18 @@
+<launch>
+ <!-- Motor_Driver Node-->
+  <node pkg="motor_driver" type="motor_driver" name="motor_driver"/>
+
+ <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="rapid_joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+ <!-- Axes -->
+  <param name="axis_linear" value="3" type="double"/>
+  <param name="axis_angular" value="2" type="double"/>
+  <param name="scale_linear" value="2" type="double"/>
+  <param name="scale_angular" value="2" type="double"/>
+  <node pkg="learning_joy" type="turtle_teleop_joy" name="teleop"/>
+</launch>

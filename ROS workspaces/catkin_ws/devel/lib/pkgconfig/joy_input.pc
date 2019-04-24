@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/devel
+
+Name: joy_input
+Description: Description of joy_input
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/catkin_ws/devel/lib -ljoy_input
+Requires: roscpp rospy std_msgs message_runtime

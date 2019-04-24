@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/devel
+
+Name: rapid_joy
+Description: Description of rapid_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/catkin_ws/devel/lib 
+Requires: 

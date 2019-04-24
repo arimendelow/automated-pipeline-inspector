@@ -1,0 +1,6 @@
+/home/nvidia/husky_ws/install/_setup_util.py
+/home/nvidia/husky_ws/install/env.sh
+/home/nvidia/husky_ws/install/setup.bash
+/home/nvidia/husky_ws/install/setup.sh
+/home/nvidia/husky_ws/install/setup.zsh
+/home/nvidia/husky_ws/install/.rosinstall

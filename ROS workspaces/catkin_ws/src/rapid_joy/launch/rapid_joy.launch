@@ -1,0 +1,21 @@
+<launch>
+
+ <!-- rosserial (arduino) node -->
+  <node pkg="rosserial_python" type="serial_node.py" name="arduino_serial_node">
+    <param name="port" value="/dev/ttyACM1"/>
+  </node>
+
+ <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="rapid_joy" >
+    <param name="dev" type="string" value="/dev/input/js1" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+ <!-- Axes -->
+  <param name="axis_linear" value="3" type="double"/>
+  <param name="axis_angular" value="2" type="double"/>
+  <param name="scale_linear" value=".3" type="double"/>
+  <param name="scale_angular" value=".3" type="double"/>
+  <node pkg="rapid_joy" type="TeleopRAPID" name="teleop"/>
+</launch>

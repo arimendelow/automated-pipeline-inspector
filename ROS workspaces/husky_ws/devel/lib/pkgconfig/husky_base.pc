@@ -1,0 +1,8 @@
+prefix=/home/nvidia/husky_ws/devel
+
+Name: husky_base
+Description: Description of husky_base
+Version: 0.2.6
+Cflags: -I/home/nvidia/husky_ws/src/husky_base/include -I/usr/include
+Libs: -L/home/nvidia/husky_ws/devel/lib -lhorizon_legacy -l:/usr/lib/aarch64-linux-gnu/libboost_chrono.so -l:/usr/lib/aarch64-linux-gnu/libboost_system.so
+Requires: diagnostic_updater hardware_interface husky_msgs roscpp sensor_msgs

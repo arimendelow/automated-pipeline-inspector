@@ -1,0 +1,2 @@
+husky_base:husky_bringup:husky_control:husky_description:husky_desktop:husky_gazebo:husky_msgs:husky_navigation:husky_robot:husky_simulator:husky_ur5_moveit_config:husky_viz
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/husky_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/husky_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/devel
+
+Name: rtimulib_ros
+Description: Description of rtimulib_ros
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/nvidia/catkin_ws/devel/lib -lrtimulib_ros
+Requires: roscpp sensor_msgs
