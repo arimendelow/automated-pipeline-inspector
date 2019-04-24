@@ -8,4 +8,7 @@ This project was completed as my senior capstone project. The end goal of the pr
 More information can be found here:
 - [Research paper with complete walkthrough of the system and the motivation behind building it](https://drive.google.com/file/d/1DcVai4OrULD5apH2o4PJoPr57udDIxd-/view?usp=sharing)
 
-The MATLAB code is considered proprietary and thus is not published here, however a basic understanding of it can be obtained from the above research paper.
+DISCLAIMERS:
+- This code is provided in "as is" state, though if you have any questions reach out and I'll try to help you out!
+- The MATLAB code is considered proprietary and thus is not published here, however a basic understanding of it can be obtained from the above research paper.
+- Much of the ROS code is compiled using the countless projects already available online, and may have been adapted from other similar open-source projects.
