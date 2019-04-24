@@ -7,3 +7,5 @@ This project was completed as my senior capstone project. The end goal of the pr
 
 More information can be found here:
 - [Research paper with complete walkthrough of the system and the motivation behind building it](https://drive.google.com/file/d/1DcVai4OrULD5apH2o4PJoPr57udDIxd-/view?usp=sharing)
+
+The MATLAB code is considered proprietary and thus is not published here, however a basic understanding of it can be obtained from the above research paper.
